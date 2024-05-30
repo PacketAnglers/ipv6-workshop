@@ -1,4 +1,4 @@
-# ipv6-workshop
+# Arista IPv6 Workshop
 
 ## Topology
 
