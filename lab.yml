@@ -31,7 +31,7 @@ topology:
 
     EOS1:
       kind: ceos
-      # startup-config: ./configs/EOS1.cfg
+      startup-config: ./configs/EOS1.cfg
       mgmt-ipv4: 172.100.100.101
       # mgmt-ipv6: 2001:db8:99c0:ffee::101
       ports:
@@ -41,7 +41,7 @@ topology:
 
     EOS2:
       kind: ceos
-      # startup-config: ./configs/EOS2.cfg
+      startup-config: ./configs/EOS2.cfg
       mgmt-ipv4: 172.100.100.102
       # mgmt-ipv6: 2001:db8:99c0:ffee::102
       ports:
@@ -51,7 +51,7 @@ topology:
 
     EOS3:
       kind: ceos
-      # startup-config: ./configs/EOS3.cfg
+      startup-config: ./configs/EOS3.cfg
       mgmt-ipv4: 172.100.100.103
       # mgmt-ipv6: 2001:db8:99c0:ffee::103
       ports:
@@ -61,7 +61,7 @@ topology:
 
     EOS4:
       kind: ceos
-      # startup-config: ./configs/EOS4.cfg
+      startup-config: ./configs/EOS4.cfg
       mgmt-ipv4: 172.100.100.104
       # mgmt-ipv6: 2001:db8:99c0:ffee::104
       ports:
@@ -71,7 +71,7 @@ topology:
 
     EOS5:
       kind: ceos
-      # startup-config: ./configs/EOS5.cfg
+      startup-config: ./configs/EOS5.cfg
       mgmt-ipv4: 172.100.100.105
       # mgmt-ipv6: 2001:db8:99c0:ffee::105
       ports:
