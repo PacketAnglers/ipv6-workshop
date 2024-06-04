@@ -1,0 +1,27 @@
+---
+all:
+  children:
+    eos:
+      children:
+        lab:
+          hosts:
+            EOS1:
+              ansible_host: 127.0.0.1
+              ansible_port: 22001
+              ansible_httpapi_port: 44301
+            EOS2:
+              ansible_host: 127.0.0.1
+              ansible_port: 22002
+              ansible_httpapi_port: 44302
+            EOS3:
+              ansible_host: 127.0.0.1
+              ansible_port: 22003
+              ansible_httpapi_port: 44303
+            EOS4:
+              ansible_host: 127.0.0.1
+              ansible_port: 22004
+              ansible_httpapi_port: 44304
+            EOS5:
+              ansible_host: 127.0.0.1
+              ansible_port: 22005
+              ansible_httpapi_port: 44305
