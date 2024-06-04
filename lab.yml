@@ -10,7 +10,7 @@ prefix: ""
 mgmt:
   network: mgmt
   ipv4-subnet: 172.100.100.0/24
-  ipv6-subnet: 2001:db8:99c0:ffee::/64
+  # ipv6-subnet: 2001:db8:99c0:ffee::/64
 
 topology:
 
@@ -33,7 +33,7 @@ topology:
       kind: ceos
       # startup-config: ./configs/EOS1.cfg
       mgmt-ipv4: 172.100.100.101
-      mgmt-ipv6: 2001:db8:99c0:ffee::101
+      # mgmt-ipv6: 2001:db8:99c0:ffee::101
       ports:
         - '22001:22'
         - '8001:80'
@@ -43,7 +43,7 @@ topology:
       kind: ceos
       # startup-config: ./configs/EOS2.cfg
       mgmt-ipv4: 172.100.100.102
-      mgmt-ipv6: 2001:db8:99c0:ffee::102
+      # mgmt-ipv6: 2001:db8:99c0:ffee::102
       ports:
         - '22002:22'
         - '8002:80'
@@ -53,7 +53,7 @@ topology:
       kind: ceos
       # startup-config: ./configs/EOS3.cfg
       mgmt-ipv4: 172.100.100.103
-      mgmt-ipv6: 2001:db8:99c0:ffee::103
+      # mgmt-ipv6: 2001:db8:99c0:ffee::103
       ports:
         - '22003:22'
         - '8003:80'
@@ -63,7 +63,7 @@ topology:
       kind: ceos
       # startup-config: ./configs/EOS4.cfg
       mgmt-ipv4: 172.100.100.104
-      mgmt-ipv6: 2001:db8:99c0:ffee::104
+      # mgmt-ipv6: 2001:db8:99c0:ffee::104
       ports:
         - '22004:22'
         - '8004:80'
@@ -73,7 +73,7 @@ topology:
       kind: ceos
       # startup-config: ./configs/EOS5.cfg
       mgmt-ipv4: 172.100.100.105
-      mgmt-ipv6: 2001:db8:99c0:ffee::105
+      # mgmt-ipv6: 2001:db8:99c0:ffee::105
       ports:
         - '22005:22'
         - '8005:80'
@@ -87,7 +87,7 @@ topology:
       kind: linux
       image: mitchv85/devhost
       mgmt-ipv4: 172.100.100.201
-      mgmt-ipv6: 2001:db8:99c0:ffee::201
+      # mgmt-ipv6: 2001:db8:99c0:ffee::201
       ports:
         - '22201:22'
       exec:
@@ -97,7 +97,7 @@ topology:
       kind: linux
       image: mitchv85/devhost
       mgmt-ipv4: 172.100.100.202
-      mgmt-ipv6: 2001:db8:99c0:ffee::202
+      # mgmt-ipv6: 2001:db8:99c0:ffee::202
       ports:
         - '22202:22'
       exec:
@@ -107,7 +107,7 @@ topology:
       kind: linux
       image: mitchv85/devhost
       mgmt-ipv4: 172.100.100.203
-      mgmt-ipv6: 2001:db8:99c0:ffee::203
+      # mgmt-ipv6: 2001:db8:99c0:ffee::203
       ports:
         - '22203:22'
       exec:
@@ -117,7 +117,7 @@ topology:
       kind: linux
       image: mitchv85/devhost
       mgmt-ipv4: 172.100.100.204
-      mgmt-ipv6: 2001:db8:99c0:ffee::204
+      # mgmt-ipv6: 2001:db8:99c0:ffee::204
       ports:
         - '22204:22'
       exec:
@@ -127,7 +127,7 @@ topology:
       kind: linux
       image: mitchv85/devhost
       mgmt-ipv4: 172.100.100.205
-      mgmt-ipv6: 2001:db8:99c0:ffee::205
+      # mgmt-ipv6: 2001:db8:99c0:ffee::205
       ports:
         - '22205:22'
       exec:
@@ -137,7 +137,7 @@ topology:
       kind: linux
       image: mitchv85/devhost
       mgmt-ipv4: 172.100.100.206
-      mgmt-ipv6: 2001:db8:99c0:ffee::206
+      # mgmt-ipv6: 2001:db8:99c0:ffee::206
       ports:
         - '22206:22'
       exec:
